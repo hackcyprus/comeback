@@ -151,6 +151,7 @@ color: #F0C40F;
 .background-hackcyprus{
     background-image:url('../img/backgrounds/hackathon-wristbands.jpg');
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 body .custom-color{
@@ -159,4 +160,12 @@ body .custom-color{
 
 .underline{
     text-decoration: underline;
+}
+
+.inline{
+    display:inline-block;
+}
+
+.extra-padding-top{
+    padding-top:15px;
 }

@@ -2647,9 +2647,6 @@ li {
   }
 }
 @media (max-width: 767px) {
-  body {
-    padding-top: 91px;
-  }
   .fullwidth-section-bg {
     position: relative;
   }
@@ -2686,6 +2683,9 @@ li {
     padding: 0 35px;
     font-size: 13px;
     line-height: 1.8;
+  }
+  .background-hackcyprus{
+    background-size:cover;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
