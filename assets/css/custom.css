@@ -54,10 +54,7 @@ h3.highlight {
 .yellow-bg h1,.yellow-bg h2,.yellow-bg h3,.yellow-bg h4,.yellow-bg h5,.yellow-bg h6,.yellow-bg p {
     color:#1C1E20;
 }
-.black-bg {
-    background:#1C1E20;
-}
-.black-bg h1,.black-bg h2,.black-bg h3,.black-bg h4,.black-bg h5,.black-bg h6,.black-bg p {
+    .black-bg h1,.black-bg h2,.black-bg h3,.black-bg h4,.black-bg h5,.black-bg h6,.black-bg p {
     color:#fff;
 }
 .black-bg .panel {
@@ -150,8 +147,7 @@ color: #F0C40F;
 
 .background-hackcyprus{
     background-image:url('../img/backgrounds/hackathon-wristbands.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center top;
 }
 
 body .custom-color{
@@ -168,4 +164,15 @@ body .custom-color{
 
 .extra-padding-top{
     padding-top:15px;
+}
+
+#sponsors{
+    padding-top:15px;
+}
+
+.li-disk
+{
+    list-style:disc;
+    padding-left:20px;
+    margin-left:20px;
 }
