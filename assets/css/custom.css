@@ -48,13 +48,15 @@ h3.highlight {
     font-size: 80px;
     font-weight: 700;
 }
-.yellow-bg {
-    background:#F0C40F;
+
+section.disable-background{
+    background:transparent;
 }
-.yellow-bg h1,.yellow-bg h2,.yellow-bg h3,.yellow-bg h4,.yellow-bg h5,.yellow-bg h6,.yellow-bg p {
-    color:#1C1E20;
+
+.black-bg {
+    background: #1C1E20;
 }
-    .black-bg h1,.black-bg h2,.black-bg h3,.black-bg h4,.black-bg h5,.black-bg h6,.black-bg p {
+.black-bg h1,.black-bg h2,.black-bg h3,.black-bg h4,.black-bg h5,.black-bg h6,.black-bg p {
     color:#fff;
 }
 .black-bg .panel {
@@ -106,6 +108,10 @@ color: #F0C40F;
 .sponsor.big {
     height:105px;
 }
+.sponsors .sponsor.medium{
+    width:210px;
+    min-height:100px;
+}
 /******* FAQs *************/
 .panel {
     background:transparent;
@@ -147,8 +153,10 @@ color: #F0C40F;
 
 .background-hackcyprus{
     background-image:url('../img/backgrounds/hackathon-wristbands.jpg');
-    background-position: center top;
-}
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
 
 body .custom-color{
     color: #d3d3d3;
@@ -166,6 +174,10 @@ body .custom-color{
     padding-top:15px;
 }
 
+.extra-padding-left{
+    padding-left:15px;
+}
+
 #sponsors{
     padding-top:15px;
 }
@@ -175,4 +187,9 @@ body .custom-color{
     list-style:disc;
     padding-left:20px;
     margin-left:20px;
+}
+
+.line-separator{
+    border-top: 5px solid #F0C40F;
+    padding:25px 0;
 }

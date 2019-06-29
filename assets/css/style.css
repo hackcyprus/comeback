@@ -2568,7 +2568,7 @@ li {
   min-height: 100%;
 }
 .heading-block {
-  padding: 120px 0 0 0;
+  padding: 120px 0;
 }
 .hero-heading-top,
 .hero-heading-bottom {
@@ -2665,7 +2665,7 @@ li {
     background-attachment: scroll;
   }
   .heading-block {
-    padding: 40px 0;
+    padding: 80px 0;
   }
   .hero-heading-top {
     position: relative;
@@ -2683,9 +2683,6 @@ li {
     padding: 0 35px;
     font-size: 13px;
     line-height: 1.8;
-  }
-  .background-hackcyprus{
-    background-size:cover;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -5223,7 +5220,7 @@ button[type="submit"] .loading {
 ---------------------------------------------------------------------------- */
 .socials-nav {
   position: absolute;
-  top: 50px;
+  top: 175px;
   left: 0;
   right: 0;
   text-align: center;
@@ -5246,13 +5243,13 @@ button[type="submit"] .loading {
 }
 @media (max-width: 991px) {
   .socials-nav {
-    top: 30px;
+    top: 140px;
   }
 }
 @media (max-width: 767px) {
   .socials-nav {
     position: relative;
-    top: auto;
+    top: 80px;
     margin-top: 20px;
   }
 }
