@@ -202,3 +202,7 @@ body .custom-color{
         height: 100%;
     }
 }
+
+area{
+    outline:none;
+}
