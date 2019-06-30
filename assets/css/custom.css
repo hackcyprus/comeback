@@ -156,7 +156,8 @@ color: #F0C40F;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+}
 
 body .custom-color{
     color: #d3d3d3;
@@ -192,4 +193,12 @@ body .custom-color{
 .line-separator{
     border-top: 5px solid #F0C40F;
     padding:25px 0;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+    .background-hackcyprus {
+        background-size: auto;
+        height: 100%;
+        overflow: hidden;
+    }
 }
