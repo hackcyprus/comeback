@@ -62,6 +62,11 @@ section.disable-background{
 .black-bg .panel {
     background:#1C1E20;
 }
+
+#faq.black-bg .panel{
+    background:#F0C40F;
+}
+
 .black-bg .schedule.schedule-light .tab-content {
     background:#1C1E20;
     border:0px;
