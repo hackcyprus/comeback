@@ -197,9 +197,16 @@ body .custom-color{
     margin-top:30px;
 }
 
-#sponsors .sponsors .big-sponsor{
+#sponsors .sponsors .big-sponsor a img{
+    width:250px;
+}
+
+#sponsors .sponsors .medium-sponsor img{
     width:200px;
-    display:inline-block;
+}
+
+#sponsors .sponsors .small-sponsor img{
+    width:150px;
 }
 
 .li-disk

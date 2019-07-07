@@ -5823,7 +5823,7 @@ button[type="submit"] .loading {
 }
 .sponsor:not(.inline):not(.big) {
   width: 160px;
-  height: 160px;
+  height: 100px;
 }
 .sponsor.big {
   width: 255px;
@@ -5871,6 +5871,11 @@ button[type="submit"] .loading {
     margin: 10px;
     width: 115px;
     height: 115px;
+  }
+
+  #sponsors .sponsors .small-sponsor,
+  #sponsors .sponsors .medium-sponsor{
+    padding-top:15px;
   }
 }
 /* ----------------------------------------------------------------------------
