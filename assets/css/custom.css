@@ -180,6 +180,10 @@ body .custom-color{
     padding-top:15px;
 }
 
+.extra-padding-bottom{
+    padding-bottom:15px;
+}
+
 .extra-padding-left{
     padding-left:15px;
 }
@@ -207,6 +211,10 @@ body .custom-color{
 
 #sponsors .sponsors .small-sponsor img{
     width:150px;
+}
+
+#sponsors .sponsors .tiny-sponsor img{
+    width:120px;
 }
 
 .li-disk
