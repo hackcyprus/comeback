@@ -217,6 +217,11 @@ body .custom-color{
     width:120px;
 }
 
+#sponsors .sponsors img.sponsor-height{
+    width:auto;
+    height:100px;
+}
+
 .li-disk
 {
     list-style:disc;
